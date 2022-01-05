@@ -1,10 +1,8 @@
 replicaCount: 2
-
 image:
   repository: registry.cn-hangzhou.aliyuncs.com/lml-test/devops-demo
   pullPolicy: IfNotPresent
-  tag: "v1.0.0"
-
+  tag: "6a93957c"
 service:
   type: ClusterIP
   port: 8080
